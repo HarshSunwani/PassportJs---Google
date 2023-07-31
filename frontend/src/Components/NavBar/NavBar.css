@@ -1,0 +1,28 @@
+.navBarWrapper {
+    width: 100vw;
+    height: 50px;
+    background-color: #E94235;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding-inline-start: 0;
+}
+
+.navBar li {
+    list-style: none;
+    cursor: pointer;
+    padding: 0 1rem;
+}
+
+.navBar a {
+    color: white;
+    text-decoration: none;
+}
